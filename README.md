@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-## Date: 12.12.2025
+## Date: 10.02.2026
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -25,247 +25,100 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-```map
-html>
-<head>
-    <title>My City</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
+```
+Image Map.html
 
-        h1 {
-            color: red;
-            margin-top: 20px;
-        }
+<html>
+    <head>
+        <title>Image map</title>
+    </head>
+    <body>
+        <h1>KRISHNAGIRI</h1>
+        <h3>DEEPAK B (25018314)</h3>
+        <img src="Screenshot 2026-02-09 105523.png" usemap="#image-map">
 
-        h3 {
-            color: blue;
-            margin-bottom: 20px;
-        }
-
-        img {
-            border: 3px solid #333;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        area {
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <h1><b>pondicherry</b></h1>
-
-    <img src="map.png" usemap="#MyCity" height="610" width="1450">
-
-    <map name="MyCity">
-        <!-- 5 clickable rectangular areas -->
-        <area shape="rect" coords="620,420,720,480" href="home.html" title="My Home Town">
-        <area shape="rect" coords="1100,120,1200,180" href="hospital.html" title="Famous hospital">
-        <area shape="rect" coords="2000,100,1260,320" href="museum.html" title="City Museum">
-        <area shape="rect" coords="700,100,500,500" href="pogoland.html" title="pogoland">
-        <area shape="rect" coords="400,300,1000,600" href="lake and santuary.html" title="lake and santuctuary">
-        
-        
-    </map></body>
+<map name="image-map">
+    <area target="_blank" alt="Krishnagiri" title="Krishnagiri" href="Krishnagiri.html" coords="893,470,1042,521" shape="rect">
+    <area target="_blank" alt="Government boys hr sec school" title="Government boys hr sec school" href="Govt_Boys_school.html" coords="1238,679,1240,726,1482,734,1509,689,1475,668" shape="poly">
+    <area target="_blank" alt="Government girls hr sec school" title="Government girls hr sec school" href="Govt_Girls_school.html" coords="" shape="rect">
+    <area target="_blank" alt="Government Museum" title="Government Museum" href="Govt_museum.html" coords="1648,575,83" shape="circle">
+    <area target="_blank" alt="SIDCO Industrial Estate" title="SIDCO Industrial Estate" href="SIDCO.html" coords="83,171,164,127,317,121,352,182,188,210" shape="poly">
+</map>
+    </body>
 </html>
 
-home
+Govt_Boys_school.html
 
-!DOCTYPE html>
 <html>
-<head>
-  <title>My Home Town</title>
-  <style>
-    body {
-      background-color: lightblue;
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      text-align: center;
-    }
-    h1 {
-      color: darkblue;
-    }
-    p {
-      color: black;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
-  <h1>My Home Town</h1>
-  <p>
-    My hometown is a peaceful and beautiful place. 
-    It is known for its rich culture, friendly people, and natural beauty. 
-    I love the calm environment, the fresh air, and the traditional festivals 
-    that bring everyone together.
-  </p>
-</body>
+    <head>
+        <title>KRISHNAGIRI</title>
+    </head>
+    <body  align="center" bgcolor="red">
+        <h1>KRISHNAGIRI</h1>
+        <h3>GOVT BOYS SCHOOL</h3>
+        <p>The Government Boys Higher Secondary School in Krishnagiri (specifically near Courts, Newpet) is a long-standing public institution established in 1868, offering Tamil-medium education from grades 6 to 12. Managed by the Department of Education, it is located in an urban area, featuring 12 classrooms, a library with approximately 3,000 books, and a playground. </p>
+    </body>
 </html>
 
-hospital
- 
- <!DOCTYPE html>
+Govt_Girls_school.html
+
 <html>
-<head>
-  <title>JIPMER Hospital</title>
-  <style>
-    body {
-      background-color: #fff9c4; /* soft light yellow background */
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      text-align: center;
-    }
-    h1 {
-      color: darkred;
-    }
-    p {
-      color: #333;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
-  <h1>JIPMER Hospital</h1>
-  <p>
-    Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) 
-    is one of India’s premier medical institutions, located in Puducherry. 
-    It offers high-quality medical education, advanced research, and excellent 
-    healthcare services to people from across the country. 
-    JIPMER is well known for its modern facilities, specialized treatments, 
-    and commitment to providing affordable healthcare for all. 
-  </p>
-</body>
+    <head>
+        <title>KRISHNAGIRI</title>
+    </head>
+    <body  align="center" bgcolor="pink">
+        <h1>KRISHNAGIRI</h1>
+        <h3>GOVT GIRLS SCHOOL</h3>
+        <p>The Government Girls Higher Secondary School in Krishnagiri, located near the Taluk Office (PIN: 635001), is a key educational institution dedicated to empowering young women in the district. As part of Tamil Nadu's state-run,,it focuses on delivering quality education, fostering extracurricular skills, and ensuring safe, inclusive learning environments for female students. </p>
+    </body>
 </html>
 
+Govt_museum.html
 
-
-lake
-
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Oussudu Lake Bird Sanctuary</title>
-  <style>
-    body {
-      background-color: #e0f7fa; /* light teal blue for a natural look */
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      text-align: center;
-    }
-    h1 {
-      color: darkcyan;
-    }
-    p {
-      color: #222;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
-  <h1>Oussudu Lake Bird Sanctuary</h1>
-  <p>
-    Oussudu Lake, also known as Ossudu Lake, is one of the most beautiful 
-    and important bird sanctuaries in Puducherry. 
-    It is home to many species of migratory and resident birds, 
-    making it a paradise for nature and bird lovers. 
-    Surrounded by lush greenery and calm waters, 
-    the lake provides a perfect spot for photography and peaceful relaxation. 
-    It also plays a vital role in maintaining the ecological balance of the region.
-  </p>
-</body>
+    <head>
+        <title>KRISHNAGIRI</title>
+    </head>
+    <body  align="center" bgcolor="#D1FFBD">
+        <h1>KRISHNAGIRI</h1>
+        <h3>GOVT MUSEUM</h3>
+        <p>Established in 1993 on Gandhi Road, the Government Museum in Krishnagiri is a district-level institution focusing on the art, archaeology, and culture of the region. It showcases artifacts from the Paleolithic to modern periods, featuring significant collections of Neolithic tools, Megalithic pottery, hero stones, and local tribal artifacts, offering a glimpse into the area's rich history.  </p>
+    </body>
 </html>
 
+SIDCO.html
 
-museum
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Pondicherry Museum</title>
-  <style>
-    body {
-      background-color: #fff5e6; /* soft peach background */
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      text-align: center;
-    }
-    h1 {
-      color: darkgreen;
-    }
-    p {
-      color: #333;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
-  <h1>Pondicherry Museum</h1>
-  <p>
-    The Pondicherry Museum is one of the most famous attractions in Puducherry. 
-    It showcases a rich collection of sculptures, archaeological finds, coins, 
-    and artifacts from the Roman settlement of Arikamedu. 
-    The museum also has galleries displaying French furniture, paintings, 
-    and historic items that highlight the cultural heritage of Pondicherry. 
-    It is a must-visit place for those who want to explore the history 
-    and artistic legacy of the region.
-  </p>
-</body>
+    <head>
+        <title>KRISHNAGIRI</title>
+    </head>
+    <body  align="center" bgcolor="#DFC5FE">
+        <h1>KRISHNAGIRI</h1>
+        <h3>SIDCO</h3>
+        <p>SIDCO (Tamil Nadu Small Industries Development Corporation) in Krishnagiri operates multiple industrial estates (including main Krishnagiri, Polupalli, Uthangarai, and Bargur) that serve as vital hubs for MSMEs. Strategically located near NH-44, they support industries like engineering, agro-processing, textiles, and auto components, providing infrastructure, sheds, and plots.</p>
+    </body>
 </html>
 
+Krishnagiri.html
 
-pogolang
-
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Pogo Land</title>
-  <style>
-    body {
-      background-color: #ffebee; /* light pink background for a fun look */
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      text-align: center;
-    }
-    h1 {
-      color: #d32f2f; /* bright red heading */
-    }
-    p {
-      color: #333;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
-  <h1>Pogo Land</h1>
-  <p>
-    Pogo Land is one of the most exciting amusement parks in Puducherry. 
-    It offers a wide variety of rides, water games, and fun activities 
-    for children and families. The park has beautiful surroundings, 
-    food stalls, and a cheerful atmosphere that makes it a perfect weekend getaway. 
-    Visitors can enjoy thrilling rides, relax by the pool, and create 
-    unforgettable memories with family and friends.
-  </p>
-</body>
+    <head>
+        <title>KRISHNAGIRI</title>
+    </head>
+    <body  align="center" bgcolor="sky blue">
+        <h1>KRISHNAGIRI</h1>
+        <p>Krishnagiri, known as the "Mango Capital of India" and the "Gateway of Tamil Nadu," is a historically significant district in Tamil Nadu, famed for producing over 300,000 tons of mangoes annually. Named "Black Hill" (Krishna-Giri) due to its vast black granite deposits, it is an agricultural hub with a rich, ancient past stretching back to the Paleolithic age. </p>
+    </body>
 </html>
 ```
 
 ## OUTPUT
-![alt text](home.png)
-![alt text](lake.png)
-![alt text](pogoland.png)
-![alt text](mapp.png)
-![alt text](museam.png)
+![alt text](<Screenshot (25).png>)
+![alt text](<Screenshot (23).png>)
+![alt text](<Screenshot (26).png>)
+![alt text](<Screenshot (27).png>)
+![alt text](<Screenshot (28).png>)
+![alt text](<Screenshot (29).png>)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
